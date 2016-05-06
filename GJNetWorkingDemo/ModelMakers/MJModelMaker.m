@@ -16,7 +16,7 @@
     GCStatus *sta = [GCStatus mj_objectWithKeyValues:json];
     *status = sta;
     
-    id dataJson = json[@"data"];
+    id dataJson = json[@"retData"];
     if ([dataJson isKindOfClass:[NSDictionary class]]) {
         id model = [modelClass mj_objectWithKeyValues:dataJson];
         return model;

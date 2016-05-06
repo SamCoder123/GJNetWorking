@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Mantle.h"
 
-@interface GCStatus : MTLModel<MTLJSONSerializing>
+@interface GCStatus : NSObject
 
-@property (nonatomic, copy) NSString *errorCode;
-@property (nonatomic, copy) NSString *message;
-@property (nonatomic, copy) NSString *result;
+@property (nonatomic, copy) NSNumber *errNum;
+@property (nonatomic, copy) NSString *retMsg;
+//@property (nonatomic, copy) NSDictionary *retData;
 
 @end

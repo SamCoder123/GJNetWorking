@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  GJNetWorkingDemo
+//  XinWeiWu
 //
-//  Created by wangyutao on 15/12/8.
-//  Copyright © 2015年 wangyutao. All rights reserved.
+//  Created by halong33 on 16/3/2.
+//  Copyright © 2016年 com.halong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

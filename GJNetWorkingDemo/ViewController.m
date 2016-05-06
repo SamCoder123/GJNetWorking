@@ -1,15 +1,16 @@
 //
 //  ViewController.m
-//  GJNetWorkingDemo
+//  XinWeiWu
 //
-//  Created by wangyutao on 15/12/8.
-//  Copyright © 2015年 wangyutao. All rights reserved.
+//  Created by halong33 on 16/3/2.
+//  Copyright © 2016年 com.halong. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "MYRequest.h"
-#import "GCTestModel.h"
+#import "Retdata.h"
 #import "GCStatus.h"
+
 @interface ViewController ()
 
 @end
@@ -18,21 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //模拟接口的调用
     MYRequest *request = [MYRequest new];
     [request startWithSuccessBlock:^(id responseObject, id status, NSError *error) {
         
-        GCTestModel *model = (GCTestModel*)responseObject;
-        NSLog(@"%@\nstatus %@",model,status);
+        Retdata *model = (Retdata*)responseObject;
+        GCStatus *statue = (GCStatus *)status;
+        NSLog(@"城市名: %@",model.cityName);
         
     } failedBlock:^(id responseObject, id status, NSError *error) {
         
     }];
-    // Do any additional setup after loading the view, typically from a nib.
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

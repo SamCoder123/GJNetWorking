@@ -7,26 +7,25 @@
 //
 
 #import "MYRequest.h"
-#import "GCTestModel.h"
+#import "Retdata.h"
 
 @implementation MYRequest
 
 - (NSString *)path{
-    return @"p2pInitController/getInitData.action";
+    return @"microservice/cityinfo";
 }
 
 - (NSDictionary *)parameters{
-    return @{@"channelId":@"E66C5A44DE9841CC70C3DBD51560EC2B",
-            @"clientType":@"1",
-            @"sign":@"b28e3b36bf836b8176b583538ea3f406"};
+    return @{@"cityname":@"北京",
+            };
 }
 
 - (GJRequestMethod)method{
-    return GJRequestPOST;
+    return GJRequestGET;
 }
 
 - (Class)modelClass{
-    return [GCTestModel class];
+    return [Retdata class];
 }
 
 - (GJAPICachePolicy)cachePolicy {

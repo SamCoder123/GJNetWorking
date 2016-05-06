@@ -1,8 +1,6 @@
-platform :ios, '6.0'
+platform :ios, '7.0'
 
-
-pod 'AFNetworking'
-pod 'Mantle'
+pod 'AFNetworking', '~> 3.0.4'
 pod 'MJExtension'
 pod 'YYModel'
 pod 'JSONModel'

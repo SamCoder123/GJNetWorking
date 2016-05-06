@@ -19,20 +19,18 @@
 @implementation GJModelRequest
 
 - (id)responseObject {
-    if (self.responseModel) {
-        return self.responseModel;
-    }
-    return [super responseObject];
+
+    return nil;
 }
 
-- (void)requestCompleted{
-    
-    [super requestCompleted];
+- (void)requestCompletedWithObj:(id)obj andModelObjBlock:(void (^)(id model))modelBlock{
+
+    [super requestCompletedWithObj:obj andModelObjBlock:modelBlock];
     
     BOOL success = !self.error;
     
     id responseStatus;
-    id responseObject = self.responseObject;
+    id responseObject = obj;
 
     //if request success and request implement modelClass,
     //when request or default modelMaker implement the delegate ,
@@ -50,9 +48,11 @@
         }
         
         if (modelMaker) {
-            self.responseModel = [modelMaker makeModelWithJSON:responseObject
+            id model = [modelMaker makeModelWithJSON:responseObject
                                                          class:[self modelClass]
                                                         status:&responseStatus];
+            
+            modelBlock(model);
             self.status = responseStatus;
         }
         

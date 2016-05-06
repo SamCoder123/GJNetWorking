@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "GJNetworkingConfig.h"
-#import "MantleModelMaker.h"
+#import "MJModelMaker.h"
 
 @interface AppDelegate ()
 
@@ -18,13 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [GJNetworkingConfig setDefaultBaseUrl:@"http://10.106.4.154:7070/"
+    [GJNetworkingConfig setDefaultBaseUrl:@"http://apistore.baidu.com/"
                    acceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil]
                  allowInvalidCertificates:YES
                       validatesDomainName:NO
                         maxOperationCount:4
                           timeOutInterval:20
-                               modelMaker:[MantleModelMaker class]];
+                               modelMaker:[MJModelMaker class]];
     [GJNetworkingConfig setCacheDirectory:@"apiCache"];
     return YES;
 }

@@ -9,20 +9,19 @@
 /* Begin PBXBuildFile section */
 		420DFA101C17254B007743E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA0F1C17254B007743E6 /* main.m */; };
 		420DFA131C17254B007743E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA121C17254B007743E6 /* AppDelegate.m */; };
-		420DFA161C17254B007743E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA151C17254B007743E6 /* ViewController.m */; };
 		420DFA191C17254B007743E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420DFA171C17254B007743E6 /* Main.storyboard */; };
 		420DFA1B1C17254B007743E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420DFA1A1C17254B007743E6 /* Assets.xcassets */; };
 		420DFA1E1C17254B007743E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420DFA1C1C17254B007743E6 /* LaunchScreen.storyboard */; };
-		420DFA341C172644007743E6 /* GJHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA271C172644007743E6 /* GJHTTPManager.m */; };
-		420DFA351C172644007743E6 /* GJNetworkingConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA2B1C172644007743E6 /* GJNetworkingConfig.m */; };
-		420DFA361C172644007743E6 /* GJAPICacheRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA2F1C172644007743E6 /* GJAPICacheRequest.m */; };
-		420DFA371C172644007743E6 /* GJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA311C172644007743E6 /* GJBaseRequest.m */; };
-		420DFA381C172644007743E6 /* GJModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA331C172644007743E6 /* GJModelRequest.m */; };
-		420DFA431C17268D007743E6 /* MantleModelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA3B1C17268D007743E6 /* MantleModelMaker.m */; };
 		420DFA441C17268D007743E6 /* MJModelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA3D1C17268D007743E6 /* MJModelMaker.m */; };
-		420DFA451C17268D007743E6 /* GCStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA401C17268D007743E6 /* GCStatus.m */; };
-		420DFA461C17268D007743E6 /* GCTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA421C17268D007743E6 /* GCTestModel.m */; };
-		420DFA491C17269C007743E6 /* MYRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 420DFA481C17269C007743E6 /* MYRequest.m */; };
+		5F9301FB1CDC77E20081AAAC /* GCStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9301F81CDC77E20081AAAC /* GCStatus.m */; };
+		5F9301FC1CDC77E20081AAAC /* Retdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9301FA1CDC77E20081AAAC /* Retdata.m */; };
+		5F9301FF1CDC77FB0081AAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9301FE1CDC77FB0081AAAC /* ViewController.m */; };
+		5F9302021CDC79880081AAAC /* MYRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9302011CDC79880081AAAC /* MYRequest.m */; };
+		5F9302151CDC8AAE0081AAAC /* GJHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9302101CDC8AAE0081AAAC /* GJHTTPManager.m */; };
+		5F9302161CDC8AAE0081AAAC /* GJNetworkingConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9302131CDC8AAE0081AAAC /* GJNetworkingConfig.m */; };
+		5F93021D1CDC8ABE0081AAAC /* GJAPICacheRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9302181CDC8ABE0081AAAC /* GJAPICacheRequest.m */; };
+		5F93021E1CDC8ABE0081AAAC /* GJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F93021A1CDC8ABE0081AAAC /* GJBaseRequest.m */; };
+		5F93021F1CDC8ABE0081AAAC /* GJModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F93021C1CDC8ABE0081AAAC /* GJModelRequest.m */; };
 		C5C4F1B97FC09CAC1C92C1D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B718924360312AC476C45A4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,35 +30,33 @@
 		420DFA0F1C17254B007743E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		420DFA111C17254B007743E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		420DFA121C17254B007743E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		420DFA141C17254B007743E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		420DFA151C17254B007743E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		420DFA181C17254B007743E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		420DFA1A1C17254B007743E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420DFA1D1C17254B007743E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420DFA1F1C17254B007743E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		420DFA261C172644007743E6 /* GJHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJHTTPManager.h; sourceTree = "<group>"; };
-		420DFA271C172644007743E6 /* GJHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJHTTPManager.m; sourceTree = "<group>"; };
-		420DFA281C172644007743E6 /* GJModelMakerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJModelMakerDelegate.h; sourceTree = "<group>"; };
-		420DFA2A1C172644007743E6 /* GJNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNetworkingConfig.h; sourceTree = "<group>"; };
-		420DFA2B1C172644007743E6 /* GJNetworkingConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNetworkingConfig.m; sourceTree = "<group>"; };
-		420DFA2C1C172644007743E6 /* GJRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRequestProtocol.h; sourceTree = "<group>"; };
-		420DFA2E1C172644007743E6 /* GJAPICacheRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAPICacheRequest.h; sourceTree = "<group>"; };
-		420DFA2F1C172644007743E6 /* GJAPICacheRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAPICacheRequest.m; sourceTree = "<group>"; };
-		420DFA301C172644007743E6 /* GJBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJBaseRequest.h; sourceTree = "<group>"; };
-		420DFA311C172644007743E6 /* GJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJBaseRequest.m; sourceTree = "<group>"; };
-		420DFA321C172644007743E6 /* GJModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJModelRequest.h; sourceTree = "<group>"; };
-		420DFA331C172644007743E6 /* GJModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJModelRequest.m; sourceTree = "<group>"; };
-		420DFA3A1C17268D007743E6 /* MantleModelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleModelMaker.h; sourceTree = "<group>"; };
-		420DFA3B1C17268D007743E6 /* MantleModelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleModelMaker.m; sourceTree = "<group>"; };
 		420DFA3C1C17268D007743E6 /* MJModelMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJModelMaker.h; sourceTree = "<group>"; };
 		420DFA3D1C17268D007743E6 /* MJModelMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJModelMaker.m; sourceTree = "<group>"; };
-		420DFA3F1C17268D007743E6 /* GCStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCStatus.h; sourceTree = "<group>"; };
-		420DFA401C17268D007743E6 /* GCStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCStatus.m; sourceTree = "<group>"; };
-		420DFA411C17268D007743E6 /* GCTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCTestModel.h; sourceTree = "<group>"; };
-		420DFA421C17268D007743E6 /* GCTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCTestModel.m; sourceTree = "<group>"; };
-		420DFA471C17269C007743E6 /* MYRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRequest.h; sourceTree = "<group>"; };
-		420DFA481C17269C007743E6 /* MYRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRequest.m; sourceTree = "<group>"; };
 		5B718924360312AC476C45A4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9301F71CDC77E20081AAAC /* GCStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCStatus.h; sourceTree = "<group>"; };
+		5F9301F81CDC77E20081AAAC /* GCStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCStatus.m; sourceTree = "<group>"; };
+		5F9301F91CDC77E20081AAAC /* Retdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retdata.h; sourceTree = "<group>"; };
+		5F9301FA1CDC77E20081AAAC /* Retdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Retdata.m; sourceTree = "<group>"; };
+		5F9301FD1CDC77FB0081AAAC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F9301FE1CDC77FB0081AAAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F9302001CDC79880081AAAC /* MYRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRequest.h; sourceTree = "<group>"; };
+		5F9302011CDC79880081AAAC /* MYRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRequest.m; sourceTree = "<group>"; };
+		5F93020F1CDC8AAE0081AAAC /* GJHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJHTTPManager.h; sourceTree = "<group>"; };
+		5F9302101CDC8AAE0081AAAC /* GJHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJHTTPManager.m; sourceTree = "<group>"; };
+		5F9302111CDC8AAE0081AAAC /* GJModelMakerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJModelMakerDelegate.h; sourceTree = "<group>"; };
+		5F9302121CDC8AAE0081AAAC /* GJNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNetworkingConfig.h; sourceTree = "<group>"; };
+		5F9302131CDC8AAE0081AAAC /* GJNetworkingConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNetworkingConfig.m; sourceTree = "<group>"; };
+		5F9302141CDC8AAE0081AAAC /* GJRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRequestProtocol.h; sourceTree = "<group>"; };
+		5F9302171CDC8ABE0081AAAC /* GJAPICacheRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAPICacheRequest.h; sourceTree = "<group>"; };
+		5F9302181CDC8ABE0081AAAC /* GJAPICacheRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAPICacheRequest.m; sourceTree = "<group>"; };
+		5F9302191CDC8ABE0081AAAC /* GJBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJBaseRequest.h; sourceTree = "<group>"; };
+		5F93021A1CDC8ABE0081AAAC /* GJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJBaseRequest.m; sourceTree = "<group>"; };
+		5F93021B1CDC8ABE0081AAAC /* GJModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJModelRequest.h; sourceTree = "<group>"; };
+		5F93021C1CDC8ABE0081AAAC /* GJModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJModelRequest.m; sourceTree = "<group>"; };
 		8E09056B53E975BA31F42123 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D16D00A329CCD66D2C7DC0EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,10 +99,10 @@
 				420DFA3E1C17268D007743E6 /* Models */,
 				420DFA111C17254B007743E6 /* AppDelegate.h */,
 				420DFA121C17254B007743E6 /* AppDelegate.m */,
-				420DFA141C17254B007743E6 /* ViewController.h */,
-				420DFA151C17254B007743E6 /* ViewController.m */,
-				420DFA471C17269C007743E6 /* MYRequest.h */,
-				420DFA481C17269C007743E6 /* MYRequest.m */,
+				5F9302001CDC79880081AAAC /* MYRequest.h */,
+				5F9302011CDC79880081AAAC /* MYRequest.m */,
+				5F9301FD1CDC77FB0081AAAC /* ViewController.h */,
+				5F9301FE1CDC77FB0081AAAC /* ViewController.m */,
 				420DFA171C17254B007743E6 /* Main.storyboard */,
 				420DFA1A1C17254B007743E6 /* Assets.xcassets */,
 				420DFA1C1C17254B007743E6 /* LaunchScreen.storyboard */,
@@ -126,12 +123,12 @@
 		420DFA251C172644007743E6 /* GJNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				420DFA261C172644007743E6 /* GJHTTPManager.h */,
-				420DFA271C172644007743E6 /* GJHTTPManager.m */,
-				420DFA281C172644007743E6 /* GJModelMakerDelegate.h */,
-				420DFA2A1C172644007743E6 /* GJNetworkingConfig.h */,
-				420DFA2B1C172644007743E6 /* GJNetworkingConfig.m */,
-				420DFA2C1C172644007743E6 /* GJRequestProtocol.h */,
+				5F93020F1CDC8AAE0081AAAC /* GJHTTPManager.h */,
+				5F9302101CDC8AAE0081AAAC /* GJHTTPManager.m */,
+				5F9302111CDC8AAE0081AAAC /* GJModelMakerDelegate.h */,
+				5F9302121CDC8AAE0081AAAC /* GJNetworkingConfig.h */,
+				5F9302131CDC8AAE0081AAAC /* GJNetworkingConfig.m */,
+				5F9302141CDC8AAE0081AAAC /* GJRequestProtocol.h */,
 				420DFA2D1C172644007743E6 /* Request */,
 			);
 			path = GJNetWorking;
@@ -140,12 +137,12 @@
 		420DFA2D1C172644007743E6 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				420DFA2E1C172644007743E6 /* GJAPICacheRequest.h */,
-				420DFA2F1C172644007743E6 /* GJAPICacheRequest.m */,
-				420DFA301C172644007743E6 /* GJBaseRequest.h */,
-				420DFA311C172644007743E6 /* GJBaseRequest.m */,
-				420DFA321C172644007743E6 /* GJModelRequest.h */,
-				420DFA331C172644007743E6 /* GJModelRequest.m */,
+				5F9302171CDC8ABE0081AAAC /* GJAPICacheRequest.h */,
+				5F9302181CDC8ABE0081AAAC /* GJAPICacheRequest.m */,
+				5F9302191CDC8ABE0081AAAC /* GJBaseRequest.h */,
+				5F93021A1CDC8ABE0081AAAC /* GJBaseRequest.m */,
+				5F93021B1CDC8ABE0081AAAC /* GJModelRequest.h */,
+				5F93021C1CDC8ABE0081AAAC /* GJModelRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -153,8 +150,6 @@
 		420DFA391C17268D007743E6 /* ModelMakers */ = {
 			isa = PBXGroup;
 			children = (
-				420DFA3A1C17268D007743E6 /* MantleModelMaker.h */,
-				420DFA3B1C17268D007743E6 /* MantleModelMaker.m */,
 				420DFA3C1C17268D007743E6 /* MJModelMaker.h */,
 				420DFA3D1C17268D007743E6 /* MJModelMaker.m */,
 			);
@@ -164,10 +159,10 @@
 		420DFA3E1C17268D007743E6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				420DFA3F1C17268D007743E6 /* GCStatus.h */,
-				420DFA401C17268D007743E6 /* GCStatus.m */,
-				420DFA411C17268D007743E6 /* GCTestModel.h */,
-				420DFA421C17268D007743E6 /* GCTestModel.m */,
+				5F9301F71CDC77E20081AAAC /* GCStatus.h */,
+				5F9301F81CDC77E20081AAAC /* GCStatus.m */,
+				5F9301F91CDC77E20081AAAC /* Retdata.h */,
+				5F9301FA1CDC77E20081AAAC /* Retdata.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,18 +305,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420DFA361C172644007743E6 /* GJAPICacheRequest.m in Sources */,
-				420DFA161C17254B007743E6 /* ViewController.m in Sources */,
-				420DFA431C17268D007743E6 /* MantleModelMaker.m in Sources */,
-				420DFA461C17268D007743E6 /* GCTestModel.m in Sources */,
+				5F93021D1CDC8ABE0081AAAC /* GJAPICacheRequest.m in Sources */,
+				5F9302021CDC79880081AAAC /* MYRequest.m in Sources */,
+				5F9302161CDC8AAE0081AAAC /* GJNetworkingConfig.m in Sources */,
+				5F9301FB1CDC77E20081AAAC /* GCStatus.m in Sources */,
+				5F9302151CDC8AAE0081AAAC /* GJHTTPManager.m in Sources */,
+				5F93021E1CDC8ABE0081AAAC /* GJBaseRequest.m in Sources */,
 				420DFA131C17254B007743E6 /* AppDelegate.m in Sources */,
-				420DFA341C172644007743E6 /* GJHTTPManager.m in Sources */,
 				420DFA441C17268D007743E6 /* MJModelMaker.m in Sources */,
-				420DFA451C17268D007743E6 /* GCStatus.m in Sources */,
-				420DFA351C172644007743E6 /* GJNetworkingConfig.m in Sources */,
-				420DFA371C172644007743E6 /* GJBaseRequest.m in Sources */,
-				420DFA381C172644007743E6 /* GJModelRequest.m in Sources */,
-				420DFA491C17269C007743E6 /* MYRequest.m in Sources */,
+				5F9301FF1CDC77FB0081AAAC /* ViewController.m in Sources */,
+				5F9301FC1CDC77E20081AAAC /* Retdata.m in Sources */,
+				5F93021F1CDC8ABE0081AAAC /* GJModelRequest.m in Sources */,
 				420DFA101C17254B007743E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

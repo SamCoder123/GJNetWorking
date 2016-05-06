@@ -42,10 +42,8 @@
 }
 
 - (id)responseObject {
-    if (self.cacheObject) {
-        return self.cacheObject;
-    }
-    return [super responseObject];
+    
+    return nil;
 }
 
 - (void)start {
@@ -74,15 +72,16 @@
     self.cacheObject = cacheObject;
     
     NSLog(@"use cache data %@",cacheObject);
+    [self requestCompletedWithObj:cacheObject andModelObjBlock:^(id model) {
+        [self requestCompletedWithModel:model];
+    }];
     
-    [self requestTerminate];
+    //    self.state = GJRequestStateFinished;
+    //    [self requestCompleted];
+    //
+    //    !self.successBlock ? : self.successBlock(self.responseObject , nil, nil);
+    //    !self.completedBlock ? : self.completedBlock(self);
     
-//    self.state = GJRequestStateFinished;
-//    [self requestCompleted];
-//    
-//    !self.successBlock ? : self.successBlock(self.responseObject , nil, nil);
-//    !self.completedBlock ? : self.completedBlock(self);
-
 }
 
 //网络请求结束后,callback前调用,
@@ -100,9 +99,9 @@
                 self.cacheObject = cacheJsonDic;
                 return;
             }
-
+            
         }
-
+        
     }
 }
 

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "GJRequestProtocol.h"
 
-@class AFHTTPRequestOperation;
+@class AFHTTPSessionManager;
 
 typedef NS_ENUM(NSUInteger, GJRequestMethod) {
     GJRequestGET,
@@ -45,7 +45,7 @@ typedef void (^GJDNSBlock)(BOOL usedDNs, NSString *domain, NSString *newBaseUrl)
 /**
  *  请求的任务，目前主要是operation，以后可能会换成session
  */
-@property (nonatomic, strong) AFHTTPRequestOperation *task;
+@property (nonatomic, strong) NSURLSessionTask *task;
 
 /**
  *  请求结束block，参数是当前request
@@ -155,8 +155,9 @@ typedef void (^GJDNSBlock)(BOOL usedDNs, NSString *domain, NSString *newBaseUrl)
 /**
  *  请求成功后，callback之前会调用此方法，子类处理很多数据逻辑，重写请慎重
  */
-- (void)requestCompleted;
+- (void)requestCompletedWithObj:(id)obj andModelObjBlock:(void (^)(id model))modelBlock;
 
+- (void)requestCompletedWithModel:(id)model;
 /**
  *  发出请求
  */

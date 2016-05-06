@@ -8,9 +8,14 @@
 
 #import "GJBaseRequest.h"
 #import "GJHTTPManager.h"
-#import "AFHTTPRequestOperation.h"
 
-@interface GJBaseRequest ()
+//被废弃了
+//#import "AFHTTPRequestOperation.h"
+
+
+@interface GJBaseRequest (){
+
+}
 
 @property (readwrite, nonatomic) GJRequestState state;
 @property (nonatomic, copy, readwrite) GJCompletedBlock completedBlock;
@@ -66,7 +71,8 @@
 }
 
 - (BOOL)isCanceled {
-    return self.task.isCancelled;
+    //先注释
+    return YES;
 }
 
 - (BOOL)isNetWorking{
@@ -78,24 +84,23 @@
 }
 
 - (id)responseObject {
-    return self.task.responseObject;
+    
+    return nil;
 }
 
 - (id)responseJson {
-    return self.task.responseObject;
+    
+    return nil;
+    
 }
-
-- (void)requestTerminate {
-    
-    if (!self.task.isCancelled) {
-        self.state = GJRequestStateFinished;
-    }
-    
-    [self requestCompleted];
+- (void)requestCompletedWithModel:(id)model{
+    self.state = GJRequestStateFinished;
     
     BOOL success = !self.error;
+    id responseObject = model;
     
-    id responseObject = self.responseObject;
+
+    
     //call back
     if (success && self.successBlock) {
         self.successBlock(responseObject, self.status, nil);
@@ -111,8 +116,9 @@
     self.failedBlock = nil;
     self.completedBlock = nil;
 }
-
-- (void)requestCompleted {
+- (void)requestCompletedWithObj:(id)obj andModelObjBlock:(void (^)(id model))modelBlock{
+    
 }
+
 
 @end
